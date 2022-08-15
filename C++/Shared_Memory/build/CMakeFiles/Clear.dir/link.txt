@@ -1,0 +1,1 @@
+/usr/bin/g++  -g  -rdynamic CMakeFiles/Clear.dir/src/clear.cpp.o  -o Clear 

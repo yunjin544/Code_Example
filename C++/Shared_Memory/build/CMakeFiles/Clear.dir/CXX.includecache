@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yunjin/Documents/Code_Example/C++/Shared_Memory/src/clear.cpp
+sys/shm.h
+-
+sys/ipc.h
+-
+stdio.h
+-
+
