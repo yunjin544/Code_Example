@@ -4,7 +4,6 @@ add_definitions(-std=c++11)
 
 include_directories(
   # include
-  ${catkin_INCLUDE_DIRS}
   ${EIGEN3_INCLUDE_DIRS}
   ${RBDL_INCLUDE_DIR}
 )
