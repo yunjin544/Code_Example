@@ -31,8 +31,3 @@ Build Tool : Cmake & Make ( Optional : Ninja )
 <pre><code>cd example </code></pre> 
 
 7. You can Run Example Programs!
-
-=======
-cmake ..
-
-make
