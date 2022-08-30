@@ -1,5 +1,6 @@
 add_executable(Matrix matrix.cpp)
 add_executable(Vector vector.cpp)
+
 target_link_libraries(Matrix 
                         Eigen3::Eigen 
                         ${RBDL_LIBRARY}

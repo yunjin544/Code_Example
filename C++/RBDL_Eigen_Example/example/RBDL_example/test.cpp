@@ -1,13 +1,9 @@
-#include <Eigen/Eigen>
-#include <Eigen/Dense>
+#include <iostream>
 #include <rbdl/rbdl.h>
-#include <rbdl/rbdl_utils.h>
-#include <rbdl/addons/urdfreader/urdfreader.h>
-
-int main (int argv , char* argc[])
-{
-    
-    std::cout << "작성 예정"<<std::endl;
-    return 0;
-
+  
+int main (int argc, char* argv[]) {
+  rbdl_check_api_version (RBDL_API_VERSION);
+  rbdl_print_version()	;
+  
+  return 0;
 }

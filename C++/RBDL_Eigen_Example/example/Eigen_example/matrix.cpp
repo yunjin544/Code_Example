@@ -44,20 +44,22 @@ int main(int argc, char* argv[])
     Result = A-B;       
     cout<<"뺄셈 연산\n"<<Result<<"\n"<<endl;
 
-    Result = A*B;       // 행렬간 곱셈은 기존과 동일한 곱셈 연산자를 이용하면 된다.
-    cout<<"곱셈 연산\n"<<Result<<"\n"<<endl;
-    
+    Result = A*B;       // 행렬간 곱셈은 기존과 동일한 곱셈 연산자를 이용하면 된다.  
+    cout<<"곱셈 연산\n"<<Result<<"\n"<<endl; 
+    Result = A*2;
+    cout<<"스칼라배 연산\n"<<Result<<"\n"<<endl;
+
     Result = A.inverse();
     cout<<"인버스(역행렬)\n"<<Result<<"\n"<<endl;
 
     Result = A.transpose();
     cout<<"전치(Transpose)\n"<<Result<<"\n"<<endl;
-    cout<<"주의 사항 : Transpose를 이용할 경우 재귀적 방법(a=a.transpose;) 으로 프로그래밍하면 안된다(공식문서) 대신 a.transposeInPlace()이용 "<<endl;
+    cout<<"주의 사항 : Transpose를 이용할 경우 재귀적 방법(a=a.transpose;) 으로 프로그래밍하면 안된다(공식문서) 대신 a.transposeInPlace()이용 \n Conjuate와 adjonit Method도 동일한 방법으로 이용할 수 있다."<<endl;
+    // Aliasing으로 인해 : https://eigen.tuxfamily.org/dox-3.3/group__TopicAliasing.html 참고할것
 
     A.transposeInPlace();
     cout<<"예시\n"<<A<<"\n"<<endl;
     
-
 
   
     /********************** Other Method about Matrix ***********************/
@@ -70,6 +72,51 @@ int main(int argc, char* argv[])
 
     cout<<"행렬 원소 개수\n"<<D.size()<<"\n"<<endl;
 
-        
+    A.resize(1,9);                                     //Numpy와 마찬가지 리사이징 가능
+    cout << "리사이징  ex) A행렬\n"<< A << "\n" <<endl;
+
+    cout<< "원소의 총합\n " << A.sum() << "\n"<< endl;
+
+    cout<< "모든 원소의 곱\n " << A.prod() << "\n"<< endl;
+
+    cout<< "모든 원소의 평균 \n " << A.mean() << "\n"<< endl;
+
+    cout<< "모든 원소 중 최소값 \n " << A.minCoeff() << "\n"<< endl;
+
+    cout<< "모든 원소 중 최대값 \n " << A.maxCoeff() << "\n"<< endl;
+
+    cout<< "주대각요소의 합(trace) \n " << A.trace() << "\n"<< endl;
+
+
+
+
+    /********************** Definition of Special Matrix ***********************/
+
+    Matrix3f a;
+    Matrix4d b;
+    Matrix3f c;
+    Matrix3f d;
+    Matrix4d e;
+
+    a = Matrix3f::Random();
+    cout<<"랜덤 행렬: \n"<<a<<"\n"<<endl;
+
+    //Identity Matrix
+    b = Matrix4d::Identity();
+    cout<<"단위 행렬: \n"<<b<<"\n"<<endl;
+
+    //zero matrix
+    c = Matrix3f::Zero();
+    cout<<"영 행렬 : \n"<<c<<"\n"<<endl;
+
+    //모든 elements를 1로
+    d = Matrix3f::Ones();
+    cout<<"모든 원소 1 : \n"<<d<<"\n"<<endl;
+
+    //모든 elements에 특정 상수값 지정
+    e = Matrix4d::Constant(10);
+    cout<<"모든 원소 특정값 지정 : \n"<<e<<"\n"<<endl;
+
+       
     return 0;
 }
