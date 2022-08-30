@@ -8,6 +8,9 @@ set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 include(CPack)
 
-add_executable(First_node src/First_node.cpp)
-add_executable(Second_node src/Second_node.cpp)
-add_executable(Clear src/clear.cpp)
+include_directories(includes/)
+
+add_executable(First_node src/First_node.cpp src/Shared_Memory.cpp)
+add_executable(Second_node src/Second_node.cpp src/Shared_Memory.cpp)
+add_executable(Clear src/clear.cpp src/Shared_Memory.cpp)
+add_executable(Test_node src/test.cpp)

@@ -1,23 +1,33 @@
 #include <sys/shm.h> 
 #include <sys/ipc.h> 
 #include <stdio.h>
+#include <stdlib.h>
+#include <signal.h>
+#include "Shared_Memory.h"
 
-#define KEY_NUM 1234
+void Exit_EventHandler(int sig)
+{
+    signal(sig,SIG_IGN);
+    shmem_clear();
+
+    exit(1);
+}
+
 
 int main(int argc , char* argv[])
 {
-    int shmid;
-    int *num;
-    void *memory_segment = NULL;
+    shmem_init();
 
-    if((shmid = shmget(KEY_NUM,sizeof(int),IPC_CREAT|0666))==-1) return 0;
-    printf("shmid : %d\n",shmid);
-    if((memory_segment = shmat(shmid,NULL,0)) == (void*)-1) return -1;
-    num=(int*)memory_segment;
-    for(long i=0 ; i <10000000000; i++)
+    signal(SIGINT,Exit_EventHandler);
+
+    while(1)
     {
-        printf("i : %ld ,num : %d\r",i,(*num));
+
+        printf("Slave : %d \r",*shmem[SLAVE_N]);    
+
     }
+
+    
 
 
     return 0;
