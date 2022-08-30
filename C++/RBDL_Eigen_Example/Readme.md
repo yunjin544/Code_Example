@@ -5,7 +5,7 @@ RDBL Version : 3.1.3 ( URDF Reader ON)
 Eigen3 Version : 3.3
 > Eigen3 :https://eigen.tuxfamily.org/index.php?title=Main_Page
 
-This Repository is exmples of RBDL & Eigen3 for Korean user.
+This Repository is simple exmples of RBDL & Eigen3
 
 Build Tool : Cmake & Make ( Optional : Ninja )
 
@@ -30,4 +30,4 @@ Build Tool : Cmake & Make ( Optional : Ninja )
 <pre><code>make </code></pre> 
 <pre><code>cd example </code></pre> 
 
-7. You can Run Example Programs!
+7. You can Run Example Programs!  
