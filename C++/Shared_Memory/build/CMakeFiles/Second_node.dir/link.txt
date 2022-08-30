@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/Second_node.dir/src/Second_node.cpp.o  -o Second_node 

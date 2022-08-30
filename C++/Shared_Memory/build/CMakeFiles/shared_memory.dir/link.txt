@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/shared_memory.dir/src/main.cpp.o  -o shared_memory 

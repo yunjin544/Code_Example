@@ -1,1 +1,0 @@
-/usr/bin/g++  -g  -rdynamic CMakeFiles/First_node.dir/src/First_node.cpp.o  -o First_node 
