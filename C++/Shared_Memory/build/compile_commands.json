@@ -1,0 +1,43 @@
+[
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/Test_node.dir/src/test.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/test.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/test.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/Clear.dir/src/clear.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/clear.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/clear.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/Clear.dir/src/Shared_Memory.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/Second_node.dir/src/Second_node.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Second_node.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Second_node.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/Second_node.dir/src/Shared_Memory.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/First_node.dir/src/First_node.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/First_node.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/First_node.cpp"
+},
+
+{
+  "directory": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/build",
+  "command": "/usr/bin/g++   -I../includes  -g   -o CMakeFiles/First_node.dir/src/Shared_Memory.cpp.o -c /home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp",
+  "file": "/home/drcl-yunjin/Documents/other_ws/Code_Example/C++/Shared_Memory/src/Shared_Memory.cpp"
+}
+]

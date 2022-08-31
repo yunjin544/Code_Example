@@ -1,0 +1,11 @@
+# ninja log v5
+0	144	1661861999293825981	CMakeFiles/class_example.dir/src/main.cpp.o	bf0b9b62adb97be0
+144	182	1661861999330827063	class_example	863c7706ecaa4f1d
+0	146	1661862879645761985	CMakeFiles/class_example.dir/src/main.cpp.o	bf0b9b62adb97be0
+146	185	1661862879682762089	class_example	863c7706ecaa4f1d
+0	143	1661862901831821733	CMakeFiles/class_example.dir/src/main.cpp.o	bf0b9b62adb97be0
+143	187	1661862901873821841	class_example	863c7706ecaa4f1d
+1	150	1661862929436888679	CMakeFiles/class_example.dir/src/main.cpp.o	bf0b9b62adb97be0
+150	188	1661862929474888766	class_example	863c7706ecaa4f1d
+0	150	1661862945553924138	CMakeFiles/class_example.dir/src/main.cpp.o	bf0b9b62adb97be0
+150	190	1661862945592924221	class_example	863c7706ecaa4f1d

@@ -33,4 +33,14 @@ class VESC_VALUES{
 class VESC_PACKET{
     public :
             VESC_VALUES vesc;
+};
+
+double get_bytes(int data[], int length , float div)
+{
+    int raw_value = 0 ;
+    for(int i = length ; i>-1 ; i--)
+        cout<< i <<endl;
+
+    double a = 32.0;
+    return a;
 }

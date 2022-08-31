@@ -4,11 +4,9 @@
 using namespace std;
 
 int main(int, char**) {
-    VESC_PACKET vp;
+    int hello[24];
 
-    vesc.amp_hours = 10.01;
-
-    cout << vesc.duty <<vesc.amp_hours;
-
+    double a =get_bytes(hello,24,2);
+    
     return 0;
 }

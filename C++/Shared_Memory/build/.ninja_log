@@ -1,0 +1,12 @@
+# ninja log v5
+1	24	1661955514001268703	CMakeFiles/First_node.dir/src/Shared_Memory.cpp.o	38f39742ce318455
+0	24	1661955514001268703	CMakeFiles/Second_node.dir/src/Shared_Memory.cpp.o	300548646c25c3e
+0	27	1661955514006267892	CMakeFiles/First_node.dir/src/First_node.cpp.o	cc9ef01ece904d97
+0	29	1661955514007267730	CMakeFiles/Clear.dir/src/clear.cpp.o	38b662e46a68eb66
+0	33	1661955514011267081	CMakeFiles/Clear.dir/src/Shared_Memory.cpp.o	cccceb3ec9b157a
+0	36	1661955514014266594	CMakeFiles/Second_node.dir/src/Second_node.cpp.o	25a6ce9f5970cf32
+27	51	1661955514029264162	First_node	1f98c53ac3050d16
+33	54	1661955514032263675	Clear	3fc856e133cc08c1
+36	58	1661955514036263026	Second_node	45c3de85478ea422
+0	170	1661955514148244861	CMakeFiles/Test_node.dir/src/test.cpp.o	12f918bd62862672
+170	209	1661955514186238698	Test_node	dc1f3b9a19a7aba
