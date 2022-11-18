@@ -1,4 +1,4 @@
-# Install script for directory: /home/drcl-yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/example/Eigen_example
+# Install script for directory: /home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/example/Eigen_example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -12,7 +12,7 @@ if(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     string(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   else()
-    set(CMAKE_INSTALL_CONFIG_NAME "")
+    set(CMAKE_INSTALL_CONFIG_NAME "Debug")
   endif()
   message(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 endif()
