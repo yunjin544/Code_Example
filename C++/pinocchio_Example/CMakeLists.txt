@@ -15,7 +15,9 @@ add_executable(myprogram src/myprogram.cpp)
 target_link_libraries(myprogram ${pinocchio_LIBRARIES})
 
 
-add_subdirectory(example/overview-urdf)
+add_subdirectory(example/simple-overview-urdf)
+add_subdirectory(example/complex-overview-urdf)
+
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
