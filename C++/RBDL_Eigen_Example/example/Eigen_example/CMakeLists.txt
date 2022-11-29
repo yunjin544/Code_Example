@@ -9,4 +9,3 @@ target_link_libraries(Vector
                         ${RBDL_LIBRARY}
                         ${RBDL_URDFReader_LIBRARY})
 
-#install(TARGETS simple_test DESTINATION bin)

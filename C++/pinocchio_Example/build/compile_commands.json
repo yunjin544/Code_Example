@@ -1,0 +1,13 @@
+[
+{
+  "directory": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+  "command": "/usr/bin/g++   -I../includes -I/home/yunjin/miniconda3/include/eigen3  -g   -std=gnu++11 -o CMakeFiles/myprogram.dir/src/myprogram.cpp.o -c /home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/src/myprogram.cpp",
+  "file": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/src/myprogram.cpp"
+},
+
+{
+  "directory": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+  "command": "/usr/bin/g++   -I../includes -I/home/yunjin/miniconda3/include/eigen3  -g   -std=gnu++11 -o example/overview-urdf/CMakeFiles/overview-urdf.dir/overview-urdf.cpp.o -c /home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/overview-urdf/overview-urdf.cpp",
+  "file": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/overview-urdf/overview-urdf.cpp"
+}
+]
