@@ -1,0 +1,19 @@
+[
+{
+  "directory": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+  "command": "/usr/bin/g++   -I../includes -I/home/yunjin/miniconda3/include/eigen3  -g   -std=gnu++11 -o CMakeFiles/myprogram.dir/src/myprogram.cpp.o -c /home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/src/myprogram.cpp",
+  "file": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/src/myprogram.cpp"
+},
+
+{
+  "directory": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+  "command": "/usr/bin/g++   -I../includes -I/home/yunjin/miniconda3/include/eigen3  -g   -std=gnu++11 -o example/simple-overview-urdf/CMakeFiles/simple-overview-urdf.dir/simple-overview-urdf.cpp.o -c /home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/simple-overview-urdf/simple-overview-urdf.cpp",
+  "file": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/simple-overview-urdf/simple-overview-urdf.cpp"
+},
+
+{
+  "directory": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+  "command": "/usr/bin/g++   -I../includes -I/home/yunjin/miniconda3/include/eigen3  -g   -std=gnu++11 -o example/complex-overview-urdf/CMakeFiles/complex-overview-urdf.dir/complex-overview-urdf.cpp.o -c /home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/complex-overview-urdf/complex-overview-urdf.cpp",
+  "file": "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/example/complex-overview-urdf/complex-overview-urdf.cpp"
+}
+]

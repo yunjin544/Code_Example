@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test.dir/src/template/casadi_template.cpp.o  -o test  -Wl,-rpath,/usr/local/lib /usr/local/lib/libcasadi.so.3.6 -ldl 

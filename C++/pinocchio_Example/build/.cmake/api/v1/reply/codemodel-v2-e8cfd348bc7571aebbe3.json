@@ -1,0 +1,110 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "example/simple-overview-urdf",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example/simple-overview-urdf",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "example/complex-overview-urdf",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example/complex-overview-urdf",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "pinocchio_example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "complex-overview-urdf::@c1eb986ec7af321ea72b",
+					"jsonFile" : "target-complex-overview-urdf-Debug-5ed91c87dc7874e93b95.json",
+					"name" : "complex-overview-urdf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "myprogram::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-myprogram-Debug-17156baefc8da5c6c2bb.json",
+					"name" : "myprogram",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "simple-overview-urdf::@df45680ecb34f081f806",
+					"jsonFile" : "target-simple-overview-urdf-Debug-290f39d0b816867ca664.json",
+					"name" : "simple-overview-urdf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example/build",
+		"source" : "/home/yunjin/Documents/cpp_ws/Code_Example/C++/pinocchio_Example"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yunjin/Documents/cpp_ws/Code_Example/C++/casadi_example/src/template/casadi_template.cpp
+casadi/casadi.hpp
+-
+
