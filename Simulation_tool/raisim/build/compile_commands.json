@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/yunjin/Documents/Code_Example/Simulation_tool/raisim/build",
+  "command": "/usr/bin/g++  -DRSDEBUG -DdIDEDOUBLE -I/home/yunjin/miniconda3/include/eigen3 -I../includes  -g   -o CMakeFiles/raisim_example.dir/src/main.cpp.o -c /home/yunjin/Documents/Code_Example/Simulation_tool/raisim/src/main.cpp",
+  "file": "/home/yunjin/Documents/Code_Example/Simulation_tool/raisim/src/main.cpp"
+}
+]

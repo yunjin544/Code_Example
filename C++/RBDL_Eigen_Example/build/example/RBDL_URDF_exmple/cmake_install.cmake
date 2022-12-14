@@ -1,4 +1,4 @@
-# Install script for directory: /home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/example/RBDL_URDF_exmple
+# Install script for directory: /home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/example/RBDL_URDF_exmple
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

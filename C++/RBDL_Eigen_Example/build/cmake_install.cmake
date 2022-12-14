@@ -1,4 +1,4 @@
-# Install script for directory: /home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example
+# Install script for directory: /home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/build/example/Eigen_example/cmake_install.cmake")
-  include("/home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/build/example/RBDL_example/cmake_install.cmake")
-  include("/home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/build/example/RBDL_URDF_exmple/cmake_install.cmake")
+  include("/home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/build/example/Eigen_example/cmake_install.cmake")
+  include("/home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/build/example/RBDL_example/cmake_install.cmake")
+  include("/home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/build/example/RBDL_URDF_exmple/cmake_install.cmake")
 
 endif()
 
@@ -53,5 +53,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
