@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "example/RBDL_URDF_exmple/URDF_example"
+			"path" : "example/RBDL_example/simple_example"
 		}
 	],
 	"backtrace" : 1,
@@ -15,7 +15,7 @@
 		],
 		"files" : 
 		[
-			"example/RBDL_URDF_exmple/CMakeLists.txt",
+			"example/RBDL_example/CMakeLists.txt",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -53,7 +53,7 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "/home/yunjin/miniconda3/include/eigen3"
+					"path" : "/usr/include/eigen3"
 				}
 			],
 			"language" : "CXX",
@@ -63,7 +63,7 @@
 			]
 		}
 	],
-	"id" : "URDF_example::@29357165f0a0d0e7d6cc",
+	"id" : "simple_example::@4ea82a998ce5bfbe0964",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -91,12 +91,12 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "URDF_example",
-	"nameOnDisk" : "URDF_example",
+	"name" : "simple_example",
+	"nameOnDisk" : "simple_example",
 	"paths" : 
 	{
-		"build" : "example/RBDL_URDF_exmple",
-		"source" : "example/RBDL_URDF_exmple"
+		"build" : "example/RBDL_example",
+		"source" : "example/RBDL_example"
 	},
 	"sourceGroups" : 
 	[
@@ -113,7 +113,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "example/RBDL_URDF_exmple/URDF_example.cpp",
+			"path" : "example/RBDL_example/simple_example.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

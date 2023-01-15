@@ -1623,7 +1623,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "/home/yunjin/miniconda3/share/eigen3/cmake"
+			"value" : "/usr/lib/cmake/eigen3"
 		},
 		{
 			"name" : "RBDL_INCLUDE_DIR",

@@ -17,7 +17,7 @@ int main (int argc, char* argv[]) {
   double result;
  
   RigidBodyDynamics::Model robotModel;
-  string str ="/home/yunjin/Documents/cpp_ws/Code_Example/C++/RBDL_Eigen_Example/example/URDF/simple_manipulator.urdf";
+  string str ="/home/yunjin/Documents/Code_Example/C++/RBDL_Eigen_Example/example/URDF/simple_manipulator.urdf";
   RigidBodyDynamics::Addons::URDFReadFromFile(str.c_str(), &robotModel, false);
   cout << "Your Robot's DOF : " <<(size_t)robotModel.dof_count << endl;
 
@@ -28,10 +28,10 @@ int main (int argc, char* argv[]) {
 
   Eigen::Vector3d pos, end_eff;
   pos.setZero();
-  pos << -0.05, 0.0, -0.3295;
+  //pos << -0.05, 0.53, -0.5;
    RigidBodyDynamics::UpdateKinematicsCustom(robotModel, &Q, NULL, NULL);
-    RigidBodyDynamics::CalcPointJacobian(robotModel, Q, end_effector_id, pos, J, false);
-    end_eff.segment<3>(0) = RigidBodyDynamics::CalcBodyToBaseCoordinates(robotModel, Q, end_effector_id, pos, false);
+   RigidBodyDynamics::CalcPointJacobian(robotModel, Q, end_effector_id, pos, J, false);
+   end_eff.segment<3>(0) = RigidBodyDynamics::CalcBodyToBaseCoordinates(robotModel, Q, end_effector_id, pos, false);
 
     std::cout << "Jacobian" << std::endl;
     std::cout << J << std::endl;
@@ -40,29 +40,38 @@ int main (int argc, char* argv[]) {
     std::cout << "end_effector x : " << end_eff(0) << std::endl;
     std::cout << "end_effector y : " << end_eff(1) << std::endl;
     std::cout << "end_effector z : " << end_eff(2) << std::endl;
+ 
+   Q << 0.28, 0.16, 2.7; 
+   RigidBodyDynamics::UpdateKinematicsCustom(robotModel, &Q, NULL, NULL);
+   RigidBodyDynamics::CalcPointJacobian(robotModel, Q, end_effector_id, pos, J, false);
+   end_eff.segment<3>(0) = RigidBodyDynamics::CalcBodyToBaseCoordinates(robotModel, Q, end_effector_id, pos, false);
+   
+   std::cout << "end_effector position" << std::endl;
+   std::cout << "end_effector x : " << end_eff(0) << std::endl;
+   std::cout << "end_effector y : " << end_eff(1) << std::endl;
+   std::cout << "end_effector z : " << end_eff(2) << std::endl;
+    // while (true)
+    // {
+    //     system_clock::time_point start = system_clock::now();
 
-    while (true)
-    {
-        system_clock::time_point start = system_clock::now();
+    //     Q = RigidBodyDynamics::Math::VectorNd::Zero((size_t)robotModel.dof_count);//Random((size_t)robotModel.dof_count);
+    //     RigidBodyDynamics::UpdateKinematicsCustom(robotModel, &Q, NULL, NULL);
+    //     RigidBodyDynamics::CalcPointJacobian(robotModel, Q, end_effector_id, pos, J, false);
+    //     end_eff.segment<3>(0) = RigidBodyDynamics::CalcBodyToBaseCoordinates(robotModel, Q, end_effector_id, pos, false);
+    //     //RigidBodyDynamics::InverseKinematics(robotModel,);
+    //     system_clock::time_point end = system_clock::now();
+    //     nanoseconds mill = duration_cast<nanoseconds>(end - start);
 
-        Q = RigidBodyDynamics::Math::VectorNd::Random((size_t)robotModel.dof_count);
-        RigidBodyDynamics::UpdateKinematicsCustom(robotModel, &Q, NULL, NULL);
-        RigidBodyDynamics::CalcPointJacobian(robotModel, Q, end_effector_id, pos, J, false);
-        end_eff.segment<3>(0) = RigidBodyDynamics::CalcBodyToBaseCoordinates(robotModel, Q, end_effector_id, pos, false);
-        //RigidBodyDynamics::InverseKinematics(robotModel,);
-        system_clock::time_point end = system_clock::now();
-        nanoseconds mill = duration_cast<nanoseconds>(end - start);
+    //     std::cout << "경과시간(ns) : " << mill.count() << endl;
+    //     std::cout << "Jacobian" << std::endl;
+    //     std::cout << J << std::endl;
 
-        std::cout << "경과시간(ns) : " << mill.count() << endl;
-        std::cout << "Jacobian" << std::endl;
-        std::cout << J << std::endl;
+    //     std::cout << "end_effector position" << std::endl;
+    //     std::cout << "end_effector x : " << end_eff(0) << std::endl;
+    //     std::cout << "end_effector y : " << end_eff(1) << std::endl;
+    //     std::cout << "end_effector z : " << end_eff(2) << std::endl;
 
-        std::cout << "end_effector position" << std::endl;
-        std::cout << "end_effector x : " << end_eff(0) << std::endl;
-        std::cout << "end_effector y : " << end_eff(1) << std::endl;
-        std::cout << "end_effector z : " << end_eff(2) << std::endl;
-
-    }
+    // }
 
   return 0;
 }
